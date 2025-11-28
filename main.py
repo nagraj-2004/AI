@@ -2168,10 +2168,6 @@ def generate_ga_graph(history):
     if not history:
         return None
 
-    import matplotlib      #fefkjdlehfjdkfcbd
-    matplotlib.use("Agg")
-    import matplotlib.pyplot as plt
-
     os.makedirs("outputs", exist_ok=True)
     path = "outputs/ga_convergence.png"
 
