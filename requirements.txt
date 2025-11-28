@@ -11,4 +11,5 @@ google-generativeai
 openai
 librosa
 soundfile
+matplotlib
 sentence-transformers
